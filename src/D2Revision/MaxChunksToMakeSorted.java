@@ -21,6 +21,5 @@ public class MaxChunksToMakeSorted {
             if(leftMax[i]<=rightMin[i+1]) chunks++;
         }
         return chunks+1;
-
     }
 }
