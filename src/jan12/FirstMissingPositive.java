@@ -14,6 +14,7 @@ public class FirstMissingPositive {
         for(i=1;i<=n;i++){
             if(!hm.containsKey(i)) return i;
             System.out.println("changes have been made");
+            System.out.println("another change");
         }
         return i;
     }
